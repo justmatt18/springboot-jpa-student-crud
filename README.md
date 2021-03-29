@@ -14,16 +14,36 @@
 
 _Postgres Guide_
 
-`\l or \list - list all database`
+login to postgre
 
-`\du - list users`
+`psql user=<username>`
 
-`\c <database name> - connect to database`
+list all database
 
-`CREATE DATABASE <db name>; - create dabatase`
+`\l or \list`
 
-`CREATE USER username; - create new username w/o password`
+list users
 
-`CREATE USER username WITH PASSWORD 'password' - create new username w/ password`
+`\du`
+
+connect to database
+
+`\c <database name>`
+
+create dabatase
+
+`CREATE DATABASE <db name>;`
+
+create new username w/o password
+
+`CREATE USER username;`
+
+create new username w/ password
+
+`CREATE USER username WITH PASSWORD 'password'`
+
+Grant all privileges on data to the specific user
 
 `GRANT ALL PRIVILEGES ON DATABASE <db name> TO <user>;`
+
+Learn :heart: + Grind :beer:
